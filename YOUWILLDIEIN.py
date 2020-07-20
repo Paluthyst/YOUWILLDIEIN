@@ -1,0 +1,5 @@
+print("Hi can I have your name?: ")
+name = input()
+print("Can I have your age?: ")
+age = int(input())
+print(name, "You will die in", (2020 - age) + 100)
